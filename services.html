@@ -1,59 +1,243 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BARBERSHOP</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-		<link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
-</head>
-<body>
-    <nav class="navbar bg-opacity-0 navbar-expand-lg no-bg">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled">Disabled</a>
-      </div>
-    </div>
-  </div>
-</nav>
-	<header class="showcase ">
-			<div class="container-md showcase-inner">
-				
-				<div class="row gap-5 justify-content-start align-items-start">
-					<div class="col-lg-4 my-5 text-center text-lg-center">
-						<h1>
-							<div class="display-3 text-white">Welcome!</div>
-						</h1>
-						<p class="lead text-white">
-							Our barbershop is for everyone. Here you’ll find a creative and
-							passionate team focused on giving you great haircuts and a service
-							experience like no other.
-						</p>
-						<p class="lead text-white">
-							Come in for a relaxing haircut, listen to our eclectic tunes, taste our range of drinks, make some friends, look out our local art commissions, smell our beautiful range of candles
-						</p>
-                        <p class="lead text-white">You, the clients, are the spirit and the soul of every barbershop, and the team can’t wait to meet you.</p>
-                       
-
-					</div>
+	<link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+   
+	  <section id="#intro" class="intro services  "><div class="container-lg"><div class="collapse" id="navbarToggleExternalContent">
+		<div class=" p-4">
+		  <h5 class="text-white h4">Collapsed content</h5>
+		  <span class="text-muted">Toggleable via the navbar brand.</span>
+		</div>
+	  </div>
+	  <ul class="nav justify-content-center">
+		<li class="nav-item fw-bold">
+		  <a class="nav-link " aria-current="page" href="./index.html">HOME</a>
+		</li>
+		<li class="nav-item fw-bold">
+		  <a class="nav-link" href="#">ABOUT</a>
+		</li>
+		<li class="nav-item fw-bold">
+		  <a class="nav-link" href="./services.html" id="#services">SERVICES</a>
+		</li>
+		<li class="nav-item fw-bold">
+		  <a class="nav-link" href="#">CONTACT</a>
+		</li>
+	  </ul><div class="row justify-content-center align-items-center"><div class="col-6 mb-1 text-center"><div class="logo  col-12
+ "><img src="./img/NAME.svg" alt="" class="img-fluid "></div></div></div></div></section>
+</html>
+<section id="#services" class="services "><div class="container-fluid"><div class="row justify-content-center"><div class="section-title"><h2 class="text-center  py-3 px-3 mb-2 mt-2 text-white">SERVICES</h2></div><div class="accordion col-9  align-items-center mt-3 mb-3" id="accordionExample">
+	<div class="bg-white fw-bold p-3 text-center">STYLING </div>
+	<div class="accordion-item">
+	  <h2 class="accordion-header" id="headingOne">
+		<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		  Quality Haircut
+		</button>
+	  </h2>
+	  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+		<div class="accordion-body">
+			A regular shape up with a tidy back and sides and scissors on top – consultation, style tips and wash as standard. For men with shorter styles who keep it smart and business casual. Stay sharp with cuts every 3-4 weeks.
 			
-					
-
-					</div>
-					
-					
-				</div>
-			</div>
-		</header>
+			<p class="mt-2"><strong class="me-2">Duration:</strong>30 mins</p>
+			<p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		</div>
+	  </div>
+	</div>
+	<div class="accordion-item">
+	  <h2 class="accordion-header" id="headingTwo">
+		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		  Premium Haircut
+		</button>
+	  </h2>
+	  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+		<div class="accordion-body">
+			For medium length and classic styles that require a bit more maintenance. Wash, consultation and style tips included. Ideal for keeping your style slick.
+			<p class="mt-2"><strong class="me-2">Duration:</strong>45 mins</p>
+			<p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		</div>
+	  </div>
+	</div>
+	<div class="accordion-item">
+	  <h2 class="accordion-header" id="headingThree">
+		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		  Longer Haircut
+		</button>
+	  </h2>
+	  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+		<div class="accordion-body">
+			For a complete restyle, or if you have longer, textured hair. Reshaping and restyling for a dapper look or a more luxurious experience. Wash and consultation, as well as friction massage, included as standard.
+			<p class="mt-2"><strong class="me-2">Duration:</strong>60 mins</p>
+			<p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		</div>
+	  </div>
+	</div>
+	<div class="accordion-item">
+	  <h2 class="accordion-header" id="headingFour">
+		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+		  Skin Fade with Haircut
+		</button>
+	  </h2>
+	  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+		<div class="accordion-body">
+			Popular service for achieving the tightest skin fade in London with short styles – leaves you looking great and feeling fresh.
+			<p class="mt-2"><strong class="me-2">Duration:</strong>60 mins</p>
+			<p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		</div>
+	  </div>
+	</div>
+	<div class="accordion-item">
+	  <h2 class="accordion-header" id="headingFive">
+		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+			Skin Fade | Back & Sides Only
+		</button>
+	  </h2>
+	  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+		<div class="accordion-body">
+			Maintenance service for keeping your skin fade looking tight and sharp – ideally every 2 weeks.
+			<p class="mt-2"><strong class="me-2">Duration:</strong>30 mins</p>
+			<p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		</div>
+	  </div>
+	</div>
+	<div class="accordion-item">
+	  <h2 class="accordion-header" id="headingSix">
+		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+			Short Back & Sides | Clipper
+		</button>
+	  </h2>
+	  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+		<div class="accordion-body">
+			A quick tidy up between cuts, with a wash and nothing taken off the top..
+			<p class="mt-2"><strong class="me-2">Duration:</strong>30 mins</p>
+			<p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		</div>
+	  </div>
+	</div>
+	<div class="accordion-item">
+	  <h2 class="accordion-header" id="headingSeven">
+		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+			Clippers only
+		</button>
+	  </h2>
+	  <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+		<div class="accordion-body">
+			Brisk, professional cut for when time is of the essence – one grade all over and no wash.
+			<p class="mt-2"><strong class="me-2">Duration:</strong>15 mins</p>
+			<p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		</div>
+	  </div>
+	</div>
+	
+	<div class="bg-white fw-bold p-3 text-center">SHAVING</div>
+	<div class="accordion-item">
+		<h2 class="accordion-header" id="headingEight">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+			  Head Shave
+		  </button>
+		</h2>
+		<div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			  Full-service head shaving experience with a straight edge and our award-winning shave products.
+			  <p class="mt-2"><strong class="me-2">Duration:</strong>30 mins</p>
+			  <p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		  </div>
+		</div>
+	  </div>
+	<div class="accordion-item">
+	  <h2 class="accordion-header" id="headingNine">
+		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+			Luxury Wet Shave
+		</button>
+	  </h2>
+	  <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+		<div class="accordion-body">
+			The ultimate luxury shaving experience for pampering yourself – hot towels, our award winning shave products, straight edge razor by one of our expert wet shaving barbers.
+			<p class="mt-2"><strong class="me-2">Duration:</strong>45 mins</p>
+			<p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		</div>
+	  </div>
+	</div>
+	<div class="bg-white fw-bold p-3 text-center">BEARD STYLING</div>
+	<div class="accordion-item">
+		<h2 class="accordion-header" id="headingTen">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+			Quality Beard Trim
+		  </button>
+		</h2>
+		<div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			One grade all over beard trim, can be added to any other service – slick and tidy.
+			  <p class="mt-2"><strong class="me-2">Duration:</strong>15 mins</p>
+			  <p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		  </div>
+		</div>
+	  </div>
+	<div class="accordion-item">
+		<h2 class="accordion-header" id="headingEleven">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+			Premium Beard Trim
+		  </button>
+		</h2>
+		<div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			Trimming & Shaping for longer beards and moustaches – maintain your style and get the beard lined up.
+			  <p class="mt-2"><strong class="me-2">Duration:</strong>15 mins</p>
+			  <p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		  </div>
+		</div>
+	  </div>
+	<div class="accordion-item">
+		<h2 class="accordion-header" id="headingTwelve">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+			Longer Beard Trim
+		  </button>
+		</h2>
+		<div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			Full service beard trim, shape and style – ideal if you’ve recently grown a beard or have a longer one to keep smart. Includes styling with beard products, line up and trim.
+			  <p class="mt-2"><strong class="me-2">Duration:</strong>15 mins</p>
+			  <p class="mt-2"><strong class="me-2">Price:</strong>££</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="bg-white fw-bold p-3 text-center">WELLBEING</div>
+	  <div class="accordion-item">
+		<h2 class="accordion-header" id="heading13">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+			Consultation
+		  </button>
+		</h2>
+		<div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			15 minutes with a barber to understand your needs and face shape, with recommendations for styling and advice on how to maintain style at home.
+			  <p class="mt-2"><strong class="me-2">Duration:</strong>15 mins</p>
+			  <p class="mt-2"><strong class="me-2">Price:</strong>Free</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="accordion-item">
+		<h2 class="accordion-header" id="heading14">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+			Friction
+		  </button>
+		</h2>
+		<div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			A traditional barbers practice to invigorate the scalp and de-stress – add to any haircut service to leave you feeling relaxed4
+			  <p class="mt-2"><strong class="me-2">Duration:</strong>15 mins</p>
+			  <p class="mt-2"><strong class="me-2">Price:</strong>Free</p>
+		  </div>
+		</div>
+	  </div>
+  </div></div></div></section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
