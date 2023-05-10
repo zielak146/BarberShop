@@ -41,11 +41,16 @@ body {
   color: white;
 }
 .team{
-  background-color:rgb(3, 2, 53);
+  background-color:#030235;
 }
 .about{
   background-color:rgb(3, 2, 53);
 }
 .services {
   background-color: rgb(3, 2, 53);
-}/*# sourceMappingURL=style.css.map */
+}
+.news{
+  background-color: #030235;
+}
+
+/*# sourceMappingURL=style.css.map */
