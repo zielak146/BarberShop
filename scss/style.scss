@@ -1,7 +1,35 @@
-$primary-color: rgba(1, 1, 137, 0.523);
+$primary-color: rgb(3, 2, 53);
 $overlay-color: rgba(0, 162, 234, 0.4);
 $secondary-color: rgba(#00a2ea, 0.796);
 $menu-speed: 0.75s;
+$carousel-control-color:             $white;
+$carousel-control-width:             15%;
+$carousel-control-opacity:           .5;
+$carousel-control-hover-opacity:     .9;
+$carousel-control-transition:        opacity .15s ease;
+
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          2px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       $white;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+$carousel-caption-width:             70%;
+$carousel-caption-color:             $white;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$carousel-control-icon-width:        2rem;
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+
 
 * {
 	margin: 0;
@@ -15,46 +43,4 @@ body {
 
 }
 
-.intro{ 
-	display: flex;
-	align-self: center;
-	justify-content: center;
-	background-color: $primary-color;
-	color: white;
-	height: 100%;
-	position: relative;
-}
-.navbar{
-	background-color:rgb(3, 2, 53);
-}
 
-.nav-link{
-	color: white;
-}
-.navbar-brand{
-	color:white;
-	font-size: 20px;
-}
-
-.intro::before {
-	content: '';
-	background-image: url('../img/photo-1496181832051-69dcf27fc27d.avif');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-}
-
-.section-title{
-	background-color: rgb(3, 2, 53);
-	width: 100%;
-}
-
-.services{
-	background-color: rgb(3, 2, 53);;
-}
